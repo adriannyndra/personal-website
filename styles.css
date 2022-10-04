@@ -3,7 +3,6 @@ body {
 }
 
 section {
-    height: 500px;
     background-color: white;
     border: solid black 1px;
 }
@@ -67,6 +66,49 @@ section {
 
 /* End of CSS area hero */
 
+/* info gwe section */
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot {
+    width: 400px;
+    border-radius: 100px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/* END of info gwe section */
+
+/* projects section */
+.project-card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-section-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* END of projects section */
 footer {
     height: 500px;
     background-color: black;
