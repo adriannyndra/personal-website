@@ -4,7 +4,6 @@ body {
 
 section {
     background-color: white;
-    border: solid black 1px;
 }
 
 .logo {
@@ -88,13 +87,18 @@ h2 {
     font-weight: 600;
 }
 
+.sub-section p {
+    font-size: larger;
+}
+
 /* END of info gwe section */
 
 /* projects section */
 .project-card {
     width: 300px;
     height: 500px;
-    border: 1px solid black;
+    box-shadow: 5px 5px 20px grey;
+    margin: 10px;
 }
 
 .project-container {
@@ -106,11 +110,30 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 80px;
+    margin-top: -15px;
 }
 
+.subtext {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 /* END of projects section */
+
+
 footer {
-    height: 500px;
+    height: 150px;
     background-color: black;
 }
 
