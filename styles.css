@@ -117,6 +117,8 @@ h2 {
 .subtext {
     font-size: 15px;
     font-weight: 400;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .project-image {
@@ -129,13 +131,14 @@ hr {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.project-link {
+    text-decoration: none;
+    color: coral;
+}
 /* END of projects section */
 
 
-footer {
-    height: 150px;
-    background-color: black;
-}
 
 nav {
     display: flex;
@@ -163,4 +166,31 @@ h1 {
    
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
+/*footer*/
+
+footer {
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 17px;
+    
+}
+
+.credentials {
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+    width: 240px;
+
+}
