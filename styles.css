@@ -178,6 +178,8 @@ footer {
     background-color: black;
     color: white;
     display: flex;
+    align-items: center;
+    font-weight: 400;
 }
 
 .contact-icon {
