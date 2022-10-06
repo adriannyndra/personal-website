@@ -14,6 +14,51 @@ section {
     border-radius: 30px;
 }
 
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+    #nav-list {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        background-color: #2b2c38;
+        margin: 0px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    ul.show {
+        display: block;
+    }
+    
+}
+
 /* CSS area HERO */
 .hero {
     background-color: #1c1d25;
@@ -51,11 +96,13 @@ section {
     font-size: 30px;
     text-align: center;
     background-color: coral;
+    text-decoration: none;
 
 }
 
 .button:hover {
-    background-color: lightcoral
+    background-color: lightcoral;
+    cursor: pointer;
 }
 
 .button:active {
@@ -169,17 +216,17 @@ h1 {
 a{
     text-decoration: none;
     color: white;
+    scroll-behavior: smooth;
 }
 
 /*footer*/
 
 footer {
-    height: 150px;
+    height: 100px;
     background-color: black;
     color: white;
     display: flex;
     align-items: center;
-    font-weight: 400;
 }
 
 .contact-icon {
