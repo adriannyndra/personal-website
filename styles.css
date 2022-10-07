@@ -41,10 +41,13 @@ section {
     }
     #nav-list {
         display: none;
+        background-color: #2b2c38;
+        margin: 0px;
     }
 
     nav {
         display: flex;
+        flex-direction: column-reverse;
         background-color: #2b2c38;
         margin: 0px;
     }
@@ -53,7 +56,9 @@ section {
         display: none;
     }
 
-    ul.show {
+    #nav-list.show {
+        position:relative;
+        bottom: 50px;
         display: block;
     }
     
