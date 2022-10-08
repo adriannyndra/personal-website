@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    background-color: white;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+
+/* Navbar & Header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    background-color: #1c1d25;
+    height: 110px;
+}
+
+.logo {
+    position: relative;
+    bottom: 18px;
+    height:80px;
+    width:80px;
+    margin: 30px;
+    border: solid white 1px;
+    border-radius: 30px;
+    
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-right: 3%;
+}
+
+li{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: -20px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+/* END of Navbar & Header */
+
+/*Profile*/
+.main-container {
+    display: flex;
+}
+
+.profile-bar {
+    margin: 2rem;
+    border: solid black 1px;
+    width: 400px;
+    height: 100vh;
+}
+
+
+/*END of Profile*/
+
+/*Bio*/
+.bio {
+    margin: 2rem;
+    border: solid black 1px;
+    width: 800px;
+    height: 400px;
+}
+/*END of bio*/

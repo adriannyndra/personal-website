@@ -2,17 +2,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     background-color: white;
 }
 
-.logo {
-    height:80px;
-    width:80px;
-    margin: 30px;
-    border: solid white 1px;
-    border-radius: 30px;
-}
+
 
 .hamburger {
     display: none;
@@ -22,6 +20,7 @@ section {
     outline: 0;
 }
 
+/* Media Query for responsiveness */
 @media only screen and (max-width: 1000px) {
     .project-container {
         display: flex;
@@ -60,9 +59,55 @@ section {
         position:relative;
         bottom: 50px;
         display: block;
-    }
-    
+    }    
 }
+/* END of Media Query */
+
+
+
+/* Navbar & Header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-right: 3%;
+}
+
+li{
+
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: -20px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    height:80px;
+    width:80px;
+    margin: 30px;
+    border: solid white 1px;
+    border-radius: 30px;
+}
+/* END of Navbar & Header */
+
+
 
 /* CSS area HERO */
 .hero {
@@ -108,6 +153,7 @@ section {
 .button:hover {
     background-color: lightcoral;
     cursor: pointer;
+    transition: all ease 0.3s;
 }
 
 .button:active {
@@ -116,6 +162,9 @@ section {
 }
 
 /* End of CSS area hero */
+
+
+
 
 /* info gwe section */
 .sub-section {
@@ -143,9 +192,33 @@ h2 {
     font-size: larger;
 }
 
+.aboutme-button {
+    border: solid 1px #1c1d25;
+    border-radius: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.aboutme-button:hover {
+    background-color: rgb(209, 208, 208);
+    transition: all ease 0.3s;
+}
 /* END of info gwe section */
 
+
+
+
 /* projects section */
+.sub-section-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 3rem;
+}
+
 .project-card {
     width: 300px;
     height: 500px;
@@ -158,14 +231,6 @@ h2 {
     justify-content: space-around;
 }
 
-.sub-section-2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 80px;
-    margin-top: -15px;
-}
-
 .subtext {
     font-size: 15px;
     font-weight: 400;
@@ -176,6 +241,7 @@ h2 {
 .project-image {
     margin-top: 25px;
     width: 250px;
+    height: 250px;
     border-radius: 125px;
 }
 
@@ -192,37 +258,91 @@ hr {
 
 
 
-nav {
+/* Blog Section */
+.sub-section-3{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.05);
+}
+.sub-section-3 h2 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box{
+    width: 350px;
+    background-color: white;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.blog-img{
+    width: 100%;
+    height: 233px;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span {
+ color: black;
+ font-size: 0.9rem;
+}
+
+.blog-text .blog-title{
+    color: #272727;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
-ul {
-    display: flex;
-    list-style-type: none;
-    width: 500px;
-    justify-content: space-around;
-    font-size: 30px;
-    margin-right: 3%;
+.blog-text .blog-title:hover{
+    color: #474747;
 }
 
-li{
-
-    text-decoration: none;
+.blog-text p {
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
 }
 
-h1 {
-    font-size: 80px;
-    margin-bottom: -20px;
-   
+.blog-text a{
+    color: #0f0f0f;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    scroll-behavior: smooth;
+.blog-text a:hover{
+    color: #6d6d6d;
+    transition: all ease 0.3s;
 }
+
+/* END of blog sexc */
+
+
+
 
 /*footer*/
 
