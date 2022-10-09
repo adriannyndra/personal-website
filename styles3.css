@@ -1,0 +1,173 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    background-color: white;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+
+/* Navbar & Header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    background-color: #1c1d25;
+    height: 110px;
+}
+
+.logo {
+    position: relative;
+    bottom: 18px;
+    height:80px;
+    width:80px;
+    margin: 30px;
+    border: solid white 1px;
+    border-radius: 30px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-right: 3%;
+}
+
+li{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: -20px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+}
+/* END of Navbar & Header */
+
+/* projects section */
+.sub-section-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 3rem;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: coral;
+}
+
+.project-button {
+    margin-top: 3rem;
+}
+/* END of projects section */
+
+/*blog bar*/
+.container-bar {
+    margin: auto;
+    width: 800px;
+    height: auto;
+}
+
+.article-container {
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+#article-date {
+    font-weight: 800;
+    color: coral;
+}
+
+#article-author {
+    color: #1c1d25;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.article-image {
+    width: 800px;
+    border-radius: 15px;
+}
+
+/*END of blog bar*/
+
+/*footer*/
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 17px;
+    
+}
+
+.credentials {
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+    width: 240px;
+
+}
+/*END of footer*/
