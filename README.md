@@ -1,2 +1,2 @@
 # personal-website
-Technical Project Assignment for Skilvul 
+personal website written in pure html & css
